@@ -62,7 +62,7 @@ const hold = btnHold.addEventListener("click", function() {
         let score2 = document.querySelector("#score--1").textContent = TotalScore[1];
 
         // Declears the Winner!
-        if (TotalScore[playerActive] >= 20) {
+        if (TotalScore[playerActive] >= 100) {
         document.querySelector("#score--" + playerActive).textContent = TotalScore[playerActive];
         console.log('Current Player Wins!');
 
